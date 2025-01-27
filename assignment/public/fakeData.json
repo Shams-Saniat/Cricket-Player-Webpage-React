@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Virat Kohli",
+            "image": "https://i.ibb.co/7SnMxJ7/QGZm4mi9.webp",
+            "description": "Right-handed batsman known for aggressive gameplay and consistent scoring.",
+            "price": 1000000,
+            "category": "Batsman",
+            "inFeature": true,
+            "products": "yguy"
+        },
+        {
+            "id": 2,
+            "name": "Jasprit Bumrah",
+            "image": "https://i.ibb.co/7SnMxJ7/QGZm4mi9.webp",
+            "description": "Right-arm fast bowler with unique action and excellent death-over skills.",
+            "price": 950000,
+            "category": "Bowler",
+            "inFeature": true
+        },
+        {
+            "id": 3,
+            "name": "Ben Stokes",
+            "image": "https://i.ibb.co/7SnMxJ7/QGZm4mi9.webp",
+            "description": "All-rounder with exceptional batting and bowling abilities, a match-winner.",
+            "price": 1200000,
+            "category": "All-Rounder",
+            "inFeature": true
+        },
+        {
+            "id": 4,
+            "name": "Kane Williamson",
+            "image": "https://i.ibb.co/7SnMxJ7/QGZm4mi9.webp",
+            "description": "Calm and composed batsman, known for his technique and leadership skills.",
+            "price": 1100000,
+            "category": "Batsman",
+            "inFeature": false
+        },
+        {
+            "id": 5,
+            "name": "Rashid Khan",
+            "image": "https://i.ibb.co/7SnMxJ7/QGZm4mi9.webp",
+            "description": "Leg-spinner with sharp turn and accuracy, a T20 specialist.",
+            "price": 850000,
+            "category": "Bowler",
+            "inFeature": false
+        },
+        {
+            "id": 6,
+            "name": "MS Dhoni",
+            "image": "https://i.ibb.co/7SnMxJ7/QGZm4mi9.webp",
+            "description": "Veteran wicketkeeper-batsman, known for finishing skills and calm under pressure.",
+            "price": 1150000,
+            "category": "Wicketkeeper",
+            "inFeature": true
+        }
+    ]
+}
