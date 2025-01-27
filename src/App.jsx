@@ -1,7 +1,6 @@
 import { useState } from 'react';
-
-import './App.css';
 import Navbar from './Components/Header/Navbar';
+import Banner from './Components/Header/Banner';
 import AllProducts from './Components/AllProducts/AllProducts';
 import AvailableCountainer from './Components/AvailableContainer/AvailableContainer';
 
@@ -30,7 +29,6 @@ function App() {
   const handleSelectedProduct = (product) => {
     const isExist = selectedProducts.find((p) => p.id === product.id);
 
-    console.log(product);
     if (isExist) {
       alert("Product already exists");
     } else {
@@ -47,7 +45,8 @@ function App() {
   return (
     <>
       <Navbar price={price} selectedProducts={selectedProducts.length}></Navbar>
-      <div className="flex">
+      <Banner />
+      <div className="flex max-w-screen-2xl mx-auto">
         <AllProducts handleSelectedProduct={handleSelectedProduct}></AllProducts>
         <AvailableCountainer
           handleDelete={handleDelete}

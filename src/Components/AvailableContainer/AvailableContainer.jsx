@@ -1,5 +1,4 @@
 import React from 'react';
-import './AvailableContainer.css'
 import Available from '../Available/Available'
 import Selected from '../Selected/Selected'
 

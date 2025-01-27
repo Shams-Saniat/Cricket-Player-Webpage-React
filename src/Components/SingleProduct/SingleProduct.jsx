@@ -1,5 +1,4 @@
 import React from 'react';
-import './SingleProduct.css'
 
 export default function SingleProduct({ product, handleSelectedProduct }) {
     //console.log(handleSelectedProduct);

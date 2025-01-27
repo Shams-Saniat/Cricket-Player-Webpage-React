@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './AllProducts.css'
 import SingleProduct from '../SingleProduct/SingleProduct';
 
 export default function AllProducts({handleSelectedProduct}) {
@@ -16,7 +15,6 @@ export default function AllProducts({handleSelectedProduct}) {
             })
     }, [])
 
-    //console.log(products);
     return (
         <div>
             <h1>All Products</h1>
