@@ -18,10 +18,12 @@ export default function AllProducts({handleSelectedProduct}) {
     return (
         <div>
             <h1>All Products</h1>
+            <div className='grid grid-cols-3'>
             {
                 products.map((p) => <SingleProduct
                 handleSelectedProduct={handleSelectedProduct} key={p.id}product={p}> </SingleProduct>)
             }
+            </div>
         </div>
     )
 }
